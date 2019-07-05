@@ -5,6 +5,8 @@ This repository is for replicating conda environments for deep learning. There a
 * [PyTorch](https://pytorch.org/)
 * [TensorFlow](https://www.tensorflow.org/)
 
+## Environments
+
 Here is a more detailed view of the files:
 
 | File         	| Package    	| Package Version 	| CUDA Version 	| Python Version 	|
@@ -14,4 +16,21 @@ Here is a more detailed view of the files:
 | torch_cuda9  	| Pytorch    	| 1.1             	| 9.2          	| 3.7.3          	|
 | torch_cuda10 	| Pytorch    	| 1.1             	| 10.1         	| 3.6.8          	|
 
-The environment files can be found in the `envs` folder. There are also two files to test successful installation in the `tests` folder.
+The environment files can be found in the `envs` folder.
+
+
+## Tests
+
+To test the installation, you can run the corresponding tests in the `tests` folder.
+
+* For PyTorch
+```
+python test_torch_installation.py
+```
+
+* For TensorFlow
+```
+python test_tf_installation.py
+```
+
+__Note__: The test for tensorflow starts a session, so run it on a GPU card which has some free GPU memory.
