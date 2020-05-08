@@ -12,7 +12,7 @@ Here is a more detailed view of the files:
 | File         	| Package    	| Package Version 	| CUDA Version 	| Python Version 	|
 |:--------------	|:------------	|:-----------------:	|:--------------:	|:----------------:|
 | tf_cuda9     	| Tensorflow 	| 1.12.0            	| 9.2          	| 3.6.8          	|
-| tf_cuda10    	| Tensorflow 	| 2.1            	| 10.1         	| 3.7.7          	|
+| tf2_cuda10    | Tensorflow 	| 2.1            	| 10.1         	| 3.7.7          	|
 | torch_cuda9  	| Pytorch    	| 1.5             	| 9.2          	| 3.8.2          	|
 | torch_cuda10 	| Pytorch    	| 1.5             	| 10.2         	| 3.8.2          	|
 

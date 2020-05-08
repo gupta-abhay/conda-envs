@@ -1,4 +1,4 @@
-name: tf_cuda10
+name: tf2_cuda10
 channels:
   - anaconda
   - defaults
