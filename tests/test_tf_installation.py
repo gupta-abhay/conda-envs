@@ -12,4 +12,4 @@ if str(tf.__version__) == '2.1':
 elif str(tf.__version__) == '1.15.0':
     print ("Num of physical devices are: ", len(tf.config.experimental.list_physical_devices('GPU')))
 else:
-    raise ValueError('Undefined tensorflow version installed')
+    raise ValueError('list_physical_devices support not available')

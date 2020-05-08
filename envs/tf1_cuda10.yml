@@ -58,5 +58,3 @@ dependencies:
   - wrapt=1.12.1=py37h7b6447c_1
   - xz=5.2.5=h7b6447c_0
   - zlib=1.2.11=h7b6447c_3
-prefix: /home/scratch/abhayg/anaconda3/envs/tf1_cuda10
-
